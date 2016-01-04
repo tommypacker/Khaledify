@@ -3,7 +3,7 @@
 
   "name": "Khaledify",
   "description": "Fan luv. Another one. Bless up. We the best.",
-  "version": "1.0",
+  "version": "1.1",
   "content_scripts":[
     {
       "matches": ["*://*/*"],
