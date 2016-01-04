@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Khaledify",
+  "description": "Fan luv. Another one. Bless up. We the best.",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "http://*/*"
+  ],
+  "content_scripts":[
+    {
+      "matches": ["*://*/*"],
+      "run_at": "document_end",
+      "js": ["content.js"]
+    }
+  ]
+}
