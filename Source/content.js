@@ -44,6 +44,18 @@ function replaceText(textNode)
 	v = v.replace(/\bthey\b/g, "they don't want you to win");
 	v = v.replace(/\bLion\b/g, "Liooonnnn");
 	v = v.replace(/\blion\b/g, "liooonnnn");
+	v = v.replace(/\bfan\b/g, "fan luv");
+	v = v.replace(/\bFan\b/g, "Fan Luv");
+	v = v.replace(/\bDon't\b/g, "Don't play yourself");
+	v = v.replace(/\bdon't\b/g, "don't play yourself");
+	v = v.replace(/\bcloth\b/g, "cloth talk");
+	v = v.replace(/\bCloth\b/g, "Cloth Talk");
+	v = v.replace(/\blet's\b/g, "let's see what Chef Dee got for breakfast");
+	v = v.replace(/\bLet's\b/g, "Let's see what Chef Dee got for breakfast");
+	v = v.replace(/\bLets\b/g, "Lets see what Chef Dee got for breakfast");
+	v = v.replace(/\blets\b/g, "lets see what Chef Dee got for breakfast");
+	v = v.replace(/\bEgg\b/g, "Egg whites, chicken sausage, water. They don't want you to eat");
+	v = v.replace(/\begg\b/g, "egg whites, chicken sausage, water. They don't want you to eat");
 	
 	textNode.nodeValue = v;
 }
