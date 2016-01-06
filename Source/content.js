@@ -96,7 +96,7 @@ function replaceText(textNode)
 	var flag_regex = new RegExp(flag, 'g');
   
 	
-  ` var i = 0;
+    var i = 0;
   
  
 	for (i = 0; i < fake_talk.length; i++) {
